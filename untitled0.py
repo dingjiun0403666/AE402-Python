@@ -1,8 +1,8 @@
-運動=["run","jump","walk","爬"]
-print(運動)
-運動.append("home")
-print(運動)
-運動.insert(2,8787787)
-print(運動)
-運動.remove(運動[5])
-print(運動)
+dingjiun={"體重":"31kg","身高":"146cm","喜歡":"play minecraft","生日":"0403","血型":"O"}
+
+for i in dingjiun.keys():
+    print(i)
+for v in dingjiun.values():
+    print(v)
+for a in dingjiun.items():
+    print(a)
